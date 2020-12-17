@@ -17,8 +17,8 @@ For this project, I am tasked with provisioning a Lambda function to generate ne
 3.  A serverless process that allows us to query our S3 data (DataAnalyzer)
 
 ## Lambda Code
-
-'import yfinance
+'''
+import yfinance
 import json
 import boto3
 import os
@@ -47,7 +47,7 @@ def lambda_handler(event,context):
             'statusCode': 200,
             'body': json.dumps('Hello from Lambda!')
             }
-'
+'''
 ## Kinesis Data Firehose Delivery Stream Monitoring
 
 ![assets/kinesis_config.png](assets/kinesis_config.png)
