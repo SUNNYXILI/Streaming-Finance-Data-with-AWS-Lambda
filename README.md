@@ -67,6 +67,10 @@ FROM (CAST(ts AS TIMESTAMP))) - 4)
         AND a.Highest_Hourly_Price = b.high
 ORDER BY  1, 4
 ```
+##Analysis
+
+**All the analysis is in the file project03 -> Analysis.ipynb OR Analysis.pdf**
+
 ## Kinesis Data Firehose Delivery Stream Monitoring
 
 ![assets/kinesis_config.png](assets/kinesis_config.png)
