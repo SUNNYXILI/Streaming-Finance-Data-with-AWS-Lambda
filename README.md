@@ -16,6 +16,12 @@ For this project, I am tasked with provisioning a Lambda function to generate ne
 2.  A Kinesis stream that holds our data (DataCollector)  
 3.  A serverless process that allows us to query our S3 data (DataAnalyzer)
 
+## Analysis
+
+**All the analysis is in the file project03 -> Analysis.ipynb OR Analysis.pdf**
+
+
+
 ## Lambda Code
 
 ```import yfinance
@@ -67,9 +73,6 @@ FROM (CAST(ts AS TIMESTAMP))) - 4)
         AND a.Highest_Hourly_Price = b.high
 ORDER BY  1, 4
 ```
-##Analysis
-
-**All the analysis is in the file project03 -> Analysis.ipynb OR Analysis.pdf**
 
 ## Kinesis Data Firehose Delivery Stream Monitoring
 
