@@ -50,11 +50,9 @@ def lambda_handler(event,context):
 '
 ## Kinesis Data Firehose Delivery Stream Monitoring
 
-![assets/kinesis_config.png]
-(assets/kinesis_config.png)
+![assets/kinesis_config.png](assets/kinesis_config.png)
 
 ## **s3 bucket that shows the file structure and some s3 files in that folder**
 
-![assets/screenshot_of_s3_bucket.png]
-(assets/screenshot_of_s3_bucket.png)
+![assets/screenshot_of_s3_bucket.png](assets/screenshot_of_s3_bucket.png)
 
