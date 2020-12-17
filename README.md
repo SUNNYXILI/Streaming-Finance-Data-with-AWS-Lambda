@@ -1,4 +1,4 @@
-﻿
+
 
 ## Streaming Finance Data with AWS Lambda
 
@@ -17,8 +17,8 @@ For this project, I am tasked with provisioning a Lambda function to generate ne
 3.  A serverless process that allows us to query our S3 data (DataAnalyzer)
 
 ## Lambda Code
-'''
-import yfinance
+
+'''import yfinance
 import json
 import boto3
 import os
